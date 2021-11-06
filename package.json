@@ -1,0 +1,16 @@
+{
+  "name": "xpow-miner",
+  "version": "1.0.0",
+  "description": "xpow miner",
+  "main": "src/miner.js",
+  "dependencies": {
+    "big-number": "^2.0.0",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kerematam@gmail.com",
+  "license": "ISC"
+}

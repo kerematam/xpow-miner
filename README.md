@@ -1,0 +1,3 @@
+# XPOW Miner
+
+Experimental code
