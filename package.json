@@ -5,12 +5,13 @@
   "main": "src/miner.js",
   "dependencies": {
     "big-number": "^2.0.0",
+    "dotenv": "^10.0.0",
     "web3": "^1.6.0"
   },
-  "devDependencies": {},
   "scripts": {
+    "start": "node src/mine.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kerematam@gmail.com",
-  "license": "ISC"
+  "license": "MIT"
 }
