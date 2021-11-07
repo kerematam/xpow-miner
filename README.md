@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/5495509/140640179-24f3383b-a426-4e94-8
 
 ## Steps
 
-* update .env file with your address and for the min amount of XPOW to mint
+* update `.env` file with your address and for the min amount of XPOW to mint
 
 * install packages
 ```sh
