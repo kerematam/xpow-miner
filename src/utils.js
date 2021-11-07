@@ -17,7 +17,16 @@ const encode = (nonce, addr, interval) => {
     return res
 }
 
+const getDeadline = () => {
+    const hour = 60*60*1000
+    const d = +new Date()
+    const deadline = (Math.floor(d / hour) + 1) * hour
+    
+    return deadline
+}
+
 module.exports = {
+    getDeadline,
     getInterval,
     encode
 }
